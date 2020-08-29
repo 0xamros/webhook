@@ -15,44 +15,24 @@ public class PersonService {
 		Person p = new Person();
 		p.setId("1");
 		p.setAge(21);
-		p.setFirstName("khaled");
-		p.setLastName("khaled");
+		p.setFirstName("Khaled");
+		p.setLastName("Amrosy");
 		persons.add(p);
 
 		p = new Person();
 		p.setId("2");
 		p.setAge(25);
-		p.setFirstName("shalaby");
-		p.setLastName("shalaby");
+		p.setFirstName("Mohammed");
+		p.setLastName("Shalaby");
 		persons.add(p);
 		
 		p = new Person();
 		p.setId("3");
 		p.setAge(25);
-		p.setFirstName("basem");
-		p.setLastName("salama");
+		p.setFirstName("Basem");
+		p.setLastName("Salama");
 		persons.add(p);
 		
-		p = new Person();
-		p.setId("4");
-		p.setAge(33);
-		p.setFirstName("webhook");
-		p.setLastName("testing");
-		persons.add(p);
-		
-		p = new Person();
-		p.setId("5");
-		p.setAge(40);
-		p.setFirstName("email");
-		p.setLastName("notification");
-		persons.add(p);
-		
-		p = new Person();
-		p.setId("6");
-		p.setAge(45);
-		p.setFirstName("docker");
-		p.setLastName("test");
-		persons.add(p);
 	}
 	public Person getPerson(String id) {
 		for(Person person:persons) {
